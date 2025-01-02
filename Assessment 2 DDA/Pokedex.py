@@ -87,7 +87,7 @@ class PokemonApp(tk.Tk):
         }
 
         # Add loading screen
-        self.loading_label = tk.Label(self, text="Loading Pokémon data...", font=self.global_font)
+        self.loading_label = tk.Label(self, text="Loading Pokemon data...", font=self.global_font)
         self.loading_label.pack(pady=300)
 
         # Start fetching initial data
